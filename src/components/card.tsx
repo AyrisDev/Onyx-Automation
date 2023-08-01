@@ -3,9 +3,9 @@ import { useTranslations } from "next-intl";
 import React from "react";
 
 type Cards = {
-  title?: string;
-  subTitle?: string;
-  description?: string;
+  title?: any;
+  subTitle?: any;
+  description?: any;
   section?: any;
   image?: any;
 };
@@ -21,7 +21,7 @@ const card = ({ description, image, section, subTitle, title }: Cards) => {
       <div className="m-4">
         <div className="flex flex-col justify-center text-center items-center">
           <Image
-            alt={n(`${title}`)}
+            alt="test"
             className="w-[154px] h-[162px] "
             height={162}
             src={image}
