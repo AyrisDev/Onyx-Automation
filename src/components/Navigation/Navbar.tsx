@@ -13,38 +13,10 @@ export default function Navbar() {
 
    const t = useTranslations('Menu')
    const [isOpen, setIsOpen] = useState(false)
-   const navList = {
-      visible: {
-         opacity: 1,
-         transition: {
-            delayChildren: 0.2,
-            staggerChildren: 0.07,
-         },
-      },
-      hidden: {
-         opacity: 0,
-         transition: {
-            staggerChildren: 0.05,
-            staggerDirection: -1,
-         },
-      },
-   }
 
-   const navItem = {
-      visible: {
-         y: 0,
-         opacity: 1,
-         transition: {
-            y: { stiffness: 1000, velocity: -100 },
-         },
-      },
-      hidden: {
-         y: 50,
-         opacity: 0,
-         transition: {
-            y: { stiffness: 1000, velocity: -100 },
-         },
-      },
+   const variants = {
+      open: { opacity: 1, y: 0 },
+      closed: { opacity: 0, y: '-100%' },
    }
 
    return (
@@ -109,10 +81,9 @@ export default function Navbar() {
          </div>
          {/*MobileMenu*/}
          <motion.div
-            initial="hidden"
-            animate="visible"
-            exit="hidden"
-            variants={navList}
+            animate={isOpen ? 'open' : 'closed'}
+            variants={variants}
+            transition={{ type: 'spring', stiffness: 100 }}
             className={
                isOpen
                   ? 'absolute top-0 right-0 w-full mt-20 z-40 h-[250px] bg-[#E9761F]'
@@ -120,7 +91,6 @@ export default function Navbar() {
             }
          >
             <motion.div
-               variants={navItem}
                className={`${montserrat.className} lowercase font-bold h-full gap-4 flex flex-col justify-center items-center text-center z-40 `}
             >
                <Link href="/">{t('Home')}</Link>
