@@ -12,7 +12,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="flex items-center justify-between  my-4 md:mx-[75px] mx-[50px]">
-      <Image width={50} height={50} src="/logo.png" />
+      <Image width={50} height={50} alt="Onyx" src="/logo.png" />
       {/*Menu */}
       <div className={`${montserrat.className} lowercase hidden lg:flex gap-2`}>
         <Link href="/"> {t("Home")}</Link>

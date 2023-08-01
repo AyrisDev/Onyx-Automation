@@ -17,6 +17,7 @@ const card = ({ title, subTitle, description, section, image }: Cards) => {
       <div className="m-4">
         <div className="flex flex-col justify-center text-center items-center">
           <Image
+            alt={n(`${title}`)}
             src={image}
             className="w-[154px] h-[162px] "
             width={154}

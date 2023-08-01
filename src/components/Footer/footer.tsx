@@ -16,6 +16,7 @@ export default function Navbar() {
       <div className="flex flex-col w-full mt-12 md:mx-[75px] sm:mx-[50px] ml-[10px]">
         <div className="flex grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-2 w-full">
           <Image
+            alt="Onyx"
             width={150}
             height={150}
             src="/logo.png"
@@ -28,16 +29,36 @@ export default function Navbar() {
             </span>
             <div className="flex flex-row mt-4">
               <Link href="/">
-                <Image width={32} height={32} src="/social/facebook.png" />
+                <Image
+                  width={32}
+                  height={32}
+                  alt="Onyx"
+                  src="/social/facebook.png"
+                />
               </Link>
               <Link href="/">
-                <Image width={32} height={32} src="/social/youtube.png" />
+                <Image
+                  width={32}
+                  height={32}
+                  alt="Onyx"
+                  src="/social/youtube.png"
+                />
               </Link>
               <Link href="/">
-                <Image width={32} height={32} src="/social/instagram.png" />
+                <Image
+                  width={32}
+                  height={32}
+                  alt="Onyx"
+                  src="/social/instagram.png"
+                />
               </Link>
               <Link href="/">
-                <Image width={32} height={32} src="/social/mail.png" />
+                <Image
+                  width={32}
+                  height={32}
+                  alt="Onyx"
+                  src="/social/mail.png"
+                />
               </Link>
             </div>
           </div>
@@ -52,15 +73,25 @@ export default function Navbar() {
           <div className="flex flex-col space-y-4  ">
             <span className="font-bold text-[24px]">{t("Contact")}</span>
             <div className="flex flex-row gap-2">
-              <Image width={32} height={32} src="/social/place.png" />
+              <Image
+                width={32}
+                height={32}
+                alt="Onyx"
+                src="/social/place.png"
+              />
               <span className="text-[16px]">{t("Addres")}</span>
             </div>
             <div className="flex flex-row gap-2">
-              <Image width={32} height={32} src="/social/phone.png" />
+              <Image
+                width={32}
+                height={32}
+                alt="Onyx"
+                src="/social/phone.png"
+              />
               <span className="text-[16px]">{t("Phone")}</span>
             </div>
             <div className="flex flex-row gap-2">
-              <Image width={32} height={32} src="/social/mail.png" />
+              <Image width={32} height={32} alt="Onyx" src="/social/mail.png" />
               <span className="text-[16px]">{t("Mail")}</span>
             </div>
           </div>
