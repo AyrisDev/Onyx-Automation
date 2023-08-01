@@ -11,7 +11,7 @@ export default function Index() {
   );
 }
 
-export async function getStaticProps(context) {
+export async function getStaticProps(context: any) {
   return {
     props: {
       // You can get the messages from anywhere you like. The recommended
