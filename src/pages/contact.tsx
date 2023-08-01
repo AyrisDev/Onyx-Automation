@@ -6,10 +6,13 @@ const Contact = () => {
 
 export default Contact;
 
-export async function getStaticProps({ locale }: GetStaticPropsContext) {
+export async function getStaticProps(context) {
   return {
     props: {
-      messages: (await import(`../../messages/${locale}.json`)).default,
+      // You can get the messages from anywhere you like. The recommended
+      // pattern is to put them in JSON files separated by locale and read
+      // the desired one based on the `locale` received from Next.js.
+      messages: (await import(`../../messages/${context.locale}.json`)).default,
     },
   };
 }
