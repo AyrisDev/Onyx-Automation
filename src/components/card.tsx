@@ -27,7 +27,10 @@ const card = ({ description, image, section, subTitle, title }: Cards) => {
             src={image}
             width={154}
           />
-          <span className="mt-4 font-bold text-[18px]"> {n(`${title}`)}</span>
+          <span className="mt-4 font-bold text-[18px]">
+            {" "}
+            {n(`${title}`) as any}
+          </span>
           <span className="mt-1 text-[14px]"> {n(`${subTitle}`)}</span>
           <span className="mt-1 text-[12px] flex-shrink-0">
             {n(`${description}`)}

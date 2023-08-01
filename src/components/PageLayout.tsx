@@ -7,8 +7,6 @@ type Props = {
   title: string;
 };
 
-export default function PageLayout({ children, title }: Props) {
-  const t = useTranslations("Index");
-
+export default function PageLayout({ children }: Props) {
   return <div className=" bg-[#FEFEFE] -z-20">{children}</div>;
 }
