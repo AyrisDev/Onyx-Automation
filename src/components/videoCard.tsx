@@ -13,7 +13,7 @@ const opts = {
 };
 const videoCard = () => {
   const t = useTranslations("PageLayout");
-  const n = useTranslations("Videos");
+  const n: any = useTranslations("Videos");
 
   return (
     <div className="flex  ">
