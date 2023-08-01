@@ -64,15 +64,31 @@ export default function Navbar() {
             }></span>
         </div>
       </div>
-      {/*MobileMenu
-      <ul className={isOpen ? "flex" : "hidden"}>
-        <li>Menussss</li>
-      </ul> */}
+      {/*MobileMenu*/}
+      <div
+        className={
+          isOpen
+            ? "absolute top-0 right-0 w-full mt-20 z-40 h-[250px] bg-[#E9761F]"
+            : "hidden"
+        }>
+        <div
+          className={`${montserrat.className} lowercase font-bold h-full gap-4 flex flex-col justify-center items-center text-center z-40 `}>
+          <Link href="/">{t("Home")}</Link>
+
+          <Link href="/products"> {t("Products")}</Link>
+
+          <Link href="/database"> {t("Database")}</Link>
+
+          <Link href="/aboutus"> {t("AboutUs")}</Link>
+
+          <Link href="/contact"> {t("Contact")}</Link>
+        </div>
+      </div>
       <button className="hidden lg:flex border border-black px-4 py-2 rounded-2xl">
         Bayi Portal
       </button>
       <div
-        className="flex lg:hidden cursor-pointer"
+        className={isOpen ? "hidden" : "flex lg:hidden cursor-pointer"}
         onClick={() => setIsOpen(!isOpen)}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -85,6 +101,23 @@ export default function Navbar() {
             strokeLinecap="round"
             strokeLinejoin="round"
             d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
+      </div>
+      <div
+        className={isOpen ? "flex lg:hidden cursor-pointer" : "hidden"}
+        onClick={() => setIsOpen(false)}>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M6 18L18 6M6 6l12 12"
           />
         </svg>
       </div>
