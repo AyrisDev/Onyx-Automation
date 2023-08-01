@@ -1,25 +1,68 @@
-import React from "react";
+import { Montserrat } from "next/font/google";
+
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
-import { Montserrat } from "next/font/google";
+import { useRouter } from "next/router";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export default function Navbar() {
+  const router = useRouter();
+  console.log(router.pathname);
   const t = useTranslations("Menu");
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="flex items-center justify-between  my-4 md:mx-[75px] mx-[50px]">
-      <Image width={50} height={50} alt="Onyx" src="/logo.png" />
+      <Image alt="Onyx" height={50} src="/logo.png" width={50} />
       {/*Menu */}
       <div className={`${montserrat.className} lowercase hidden lg:flex gap-2`}>
-        <Link href="/"> {t("Home")}</Link>
-        <Link href="/"> {t("Products")}</Link>
-        <Link href="/"> {t("Database")}</Link>
-        <Link href="/"> {t("AboutUs")}</Link>
-        <Link href="/"> {t("Contact")}</Link>
+        <div className="flex flex-col ">
+          <Link href="/">{t("Home")}</Link>
+          <span
+            className={
+              router.pathname == "/" ? "h-1 w-full bg-[#E9761F]" : "hidden"
+            }></span>
+        </div>
+        <div className="flex flex-col">
+          <Link href="/products"> {t("Products")}</Link>
+          <span
+            className={
+              router.pathname == "/products"
+                ? "h-1 w-full bg-[#E9761F]"
+                : "hidden"
+            }></span>
+        </div>
+        <div className="flex flex-col">
+          <Link href="/database"> {t("Database")}</Link>
+          <span
+            className={
+              router.pathname == "/database"
+                ? "h-1 w-full bg-[#E9761F]"
+                : "hidden"
+            }></span>
+        </div>
+
+        <div className="flex flex-col">
+          <Link href="/aboutus"> {t("AboutUs")}</Link>
+
+          <span
+            className={
+              router.pathname == "/aboutus"
+                ? "h-1 w-full bg-[#E9761F]"
+                : "hidden"
+            }></span>
+        </div>
+        <div className="flex flex-col">
+          <Link href="/contact"> {t("Contact")}</Link>
+          <span
+            className={
+              router.pathname == "/contact"
+                ? "h-1 w-full bg-[#E9761F]"
+                : "hidden"
+            }></span>
+        </div>
       </div>
       {/*MobileMenu
       <ul className={isOpen ? "flex" : "hidden"}>
