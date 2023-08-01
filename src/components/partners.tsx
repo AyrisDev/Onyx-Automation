@@ -14,7 +14,7 @@ const Partners = () => {
       width={160}
       height={60}
       src={partner.image}
-      key={partner.image}
+      key={partner.id}
       className=""
    />
       ))}

@@ -1,17 +1,24 @@
+'use client'
+
+import { motion } from 'framer-motion'
 import React from 'react'
 import { useState } from 'react'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Montserrat } from 'next/font/google'
-
+import { footerVariants } from '../../lib/motion'
 const montserrat = Montserrat({ subsets: ['latin'] })
 
 export default function Navbar() {
    const t = useTranslations('Footer')
 
    return (
-      <div
+      <motion.div
+         variants={footerVariants}
+         initial="hidden"
+         whileInView="show"
+         viewport={{ once: true, amount: 0.25 }}
          className={`${montserrat.className} flex items-center justify-between  my-4  bg-[#FFFBF2] `}
       >
          <div className="flex flex-col w-full mt-12 md:mx-[75px] sm:mx-[50px] ml-[10px]">
@@ -113,6 +120,6 @@ export default function Navbar() {
                </div>
             </div>
          </div>
-      </div>
+      </motion.div>
    )
 }
