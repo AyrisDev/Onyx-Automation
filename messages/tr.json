@@ -1,0 +1,103 @@
+{
+  "Index": {
+    "title": "Start",
+    "description": "Das ist die Startseite."
+  },
+  "LocaleSwitcher": {
+    "switchLocale": "Zu {locale, select, de {Deutsch} en {Englisch} other {Unbekannt}} wechseln"
+  },
+  "PageLayout": {
+    "pageTitle": "next-intl",
+    "videoCard": "Ürün Tanıtımları"
+  },
+
+  "Menu": {
+    "Home": "Ana Sayfa",
+    "Products": "Ürünlerimiz",
+    "Database": "Bilgi Bankası",
+    "AboutUs": "Hakkımızda",
+    "Contact": "İletişim"
+  },
+  "Hero": {
+    "Innovative": "Yenilikçi",
+    "Automation": "Otomasyon",
+    "Solutions": "Çözümleri"
+  },
+  "Products": {
+    "Title": "Ürünlerimiz",
+    "Drivers": "Sürücüler",
+    "Engines": "Motorlar",
+    "Controller": "Kontrolör",
+    "InOut": "Giriş&Çıkış"
+  },
+  "CardButton": {
+    "Details": "Detay",
+    "Catalog": "Katalog"
+  },
+  "Engines": {
+    "Title": "CPLS-Kare Gövde",
+    "SubTitle": "AC Motor",
+    "Description": "Leroy Somer AC Kare Gövde motor(95-2900Nm), DC motorların AC ile değişimi vb. pek çok farklı uygulamalar için kullanılmaktadır.",
+
+    "Title1": "PM Servo Motorlar",
+    "SubTitle1": "Servo Motor",
+    "Description1": "400Nm kadar sabit mıknatıslı servo motorlar, düşük ataletli, yüksek dinamikli uygulamalar için kullanılmaktadır."
+  },
+
+  "Drivers": {
+    "Title": "Universal AC Motor",
+    "SubTitle": "Servo Sürücü",
+    "Description": "Universal AC Motor Sürücü(0.75-2800kW), bütün motor kontrol uygulamalarınız için yüksek performans sağlar.",
+
+    "Title1": "Detay",
+    "SubTitle1": "Katalog",
+    "Description1": "Katalog",
+
+    "Title2": "Detay",
+    "SubTitle2": "Katalog",
+    "Description2": "Katalog",
+
+    "Title3": "Detay",
+    "SubTitle3": "Katalog",
+    "Description3": "Katalog"
+  },
+
+  "Controller": {
+    "Title": "Codesys(3S)",
+    "SubTitle": "",
+    "Description": "Codesys Native Runtime kullanarak PC tabanlı gerçek zamanlı otomasyon uygulamaları.",
+
+    "Title1": "Elite610-10 Endüstriyel PC",
+    "SubTitle1": "",
+    "Description1": "10.1” Dokunmatik Ekran, 16:9 HMI Panel PC, Intel Atom® x5-E3930, Stoktan Teslim, Uygun Fiyat"
+  },
+
+  "Videos": {
+    "Title": "Control Techniques",
+    "Description": "1973'ten bügüne motor kontrol  teknolojisinde lider marka  Control Techniques'in Türkiyedeki bir numaralı partneri olan Oniks Kontrol motor kontrol uygulamalarınızı hızlı ve güvenli yapabilmeniz için 7/24 hizmetinizdedir. ",
+
+    "Title1": "Oniks Kontrol CNC Çözümleri",
+    "Description1": "Oniks Kontrol ve sistem partnerleri tarafından geliştirilen CNC çözümleri altın işlemeden tesktile, laser kesimden tekstile kadar pek çok değişik sektörde kullanımaktadır. Kontrölör olarak Codesys SoftMotion CNC , veriyolu olarak ise EtherCAT kullanılmaktadır.",
+
+    "Title2": "Estun Automation",
+    "Description2": "Estun servo motor sürücüler Oniks Kontrol satış ve satış sonrası desteğiyle Türkiyede.",
+
+    "Title3": "Flying Shear(Uçar Makas)",
+    "Description3": "Sürekli üretim hatlarında yaygın kullanılan talebe göre istenilen boyda kesim için kullanılan makinedir. Servo motorlar ve sürücüler ile donatılmış olan makine; üretim hattı üzerine yerleştirilmiş boy ölçme encoderi vasıtası ile hatta üretilen ürünün boyunu ve hızını ölçerek kullanıcı tarafından talep edilen boyda kesmek için hızını ve pozisyonunu otomatik olarak ayarlar. "
+  },
+
+  "Footer": {
+    "AboutUs": "Hakkımızda",
+    "Description": "Oniks Kontrol A.Ş Endüstriyel Otomasyon sektöründe faaliyet göstermektedir.Control Techniques/Leroy Somer grubunun Türkiyedeki bir numaralı Bayi/Sistem Entegratörü, Estun Automation, 3S/Codesys-Almanya, Crevis-G.Kore ve Nexcom IPC-Taywan'in Türkiye distribütörü olan Oniks Kontrol AC/DC/Servo sürücü ve motor uygulamaları ve PC tabanlı otomasyon çözümleri için uzman kadrosu ile 7/24 servis desteği sunmaktadır.",
+    "Menu": "Hızlı Linkler",
+    "Menu1": "Ana Sayfa",
+    "Menu2": "Hesaplamalar",
+    "Menu3": "Uygulamalar",
+    "Menu4": "Bilgi Bankası",
+    "Menu5": "İletişim",
+    "Contact": "İletişim",
+    "Addres": "Girne Mah. Irmaklar Sok. Küçükyalı İş Merkezi. No:3 Maltepe/İstanbul",
+    "Phone": "+90 (216) 504 14 42",
+    "Mail": "info@onxcontrol.com"
+  }
+}
