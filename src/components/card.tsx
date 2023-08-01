@@ -6,8 +6,8 @@ type Cards = {
   title?: string;
   subTitle?: string;
   description?: string;
-
-  image?: string;
+  section?: any;
+  image?: any;
 };
 
 // eslint-disable-next-line func-style

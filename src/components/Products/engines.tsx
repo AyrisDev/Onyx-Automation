@@ -12,7 +12,7 @@ const engines = () => {
           image={engines.image}
           description={engines.description}
           section={section}
-          key={section}
+          key={engines.title}
         />
       ))}
     </div>
