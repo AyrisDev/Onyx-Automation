@@ -15,7 +15,7 @@ const card = ({ description, image, section, subTitle, title }: Cards) => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const t = useTranslations("CardButton");
   // eslint-disable-next-line react-hooks/rules-of-hooks
-  const n = useTranslations(section);
+  const n = useTranslations(section) as string;
   return (
     <div className="md:h-[400px] md:w-[272px] bg-white flex justify-center shadow-lg relative">
       <div className="m-4">
@@ -27,10 +27,7 @@ const card = ({ description, image, section, subTitle, title }: Cards) => {
             src={image}
             width={154}
           />
-          <span className="mt-4 font-bold text-[18px]">
-            {" "}
-            {n(`${title}`) as any}
-          </span>
+          <span className="mt-4 font-bold text-[18px]"> {n(`${title}`)}</span>
           <span className="mt-1 text-[14px]"> {n(`${subTitle}`)}</span>
           <span className="mt-1 text-[12px] flex-shrink-0">
             {n(`${description}`)}
