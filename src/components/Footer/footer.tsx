@@ -97,7 +97,7 @@ export default function Navbar() {
           </div>
         </div>
         <div className="flex flex-col md:mx-[75px] sm:mx-[50px] ml-[10px] my-4">
-          <span class="h-1 w-full bg-black"></span>
+          <span className="h-1 w-full bg-black"></span>
           <div className="flex flex-col lg:flex-row items-center lg:justify-between justify-center w-full mt-4">
             <span>Copyright @2013-2023 ONIKS Inc.</span>
             <div className="flex flex-row gap-2">

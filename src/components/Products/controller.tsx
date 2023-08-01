@@ -12,6 +12,7 @@ const controller = () => {
           image={engines.image}
           description={engines.description}
           section={section}
+          key={section}
         />
       ))}
     </div>
