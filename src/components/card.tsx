@@ -1,16 +1,20 @@
-import React from "react";
-import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
+import React from "react";
+
 type Cards = {
   title?: string;
   subTitle?: string;
   description?: string;
-  section?: string;
+
   image?: string;
 };
 
-const card = ({ title, subTitle, description, section, image }: Cards) => {
+// eslint-disable-next-line func-style
+const card = ({ description, image, section, subTitle, title }: Cards) => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const t = useTranslations("CardButton");
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const n = useTranslations(section);
   return (
     <div className="md:h-[400px] md:w-[272px] bg-white flex justify-center shadow-lg relative">
@@ -18,10 +22,10 @@ const card = ({ title, subTitle, description, section, image }: Cards) => {
         <div className="flex flex-col justify-center text-center items-center">
           <Image
             alt={n(`${title}`)}
-            src={image}
             className="w-[154px] h-[162px] "
-            width={154}
             height={162}
+            src={image}
+            width={154}
           />
           <span className="mt-4 font-bold text-[18px]"> {n(`${title}`)}</span>
           <span className="mt-1 text-[14px]"> {n(`${subTitle}`)}</span>
