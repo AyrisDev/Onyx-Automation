@@ -36,8 +36,8 @@ const Products = () => {
                   }}
                   className={
                     drivers
-                      ? "flex items-center justify-center px-3 py-2 font-bold text-black  transition-colors duration-300 transform bg-[#FEEECC] rounded-lg  focus:outline-none dark:text-gray-200"
-                      : "px-3 py-2 font-bold text-white  transition-colors duration-300 transform bg-transparent rounded-lg focus:outline-none dark:text-gray-200  hover:bg-gray-200"
+                      ? "flex items-center justify-center px-3 py-2 font-bold text-black  transition-colors duration-300 transform bg-[#FEEECC] rounded-lg  focus:outline-none d"
+                      : "px-3 py-2 font-bold text-white hover:text-black transition-colors duration-300 transform bg-transparent rounded-lg focus:outline-none  hover:bg-gray-200"
                   }>
                   <span className="mx-1">{t("Drivers")}</span>
                 </button>
@@ -51,7 +51,7 @@ const Products = () => {
                   className={
                     engines
                       ? "flex items-center justify-center px-3 py-2 font-bold text-black  transition-colors duration-300 transform bg-[#FEEECC] rounded-lg  focus:outline-none dark:text-gray-200"
-                      : "px-3 py-2 font-bold text-white  transition-colors duration-300 transform bg-transparent rounded-lg focus:outline-none dark:text-gray-200  hover:bg-gray-200"
+                      : "px-3 py-2 font-bold text-white  transition-colors hover:text-black  duration-300 transform bg-transparent rounded-lg focus:outline-none dark:text-gray-200  hover:bg-gray-200"
                   }>
                   <span className="mx-1">{t("Engines")}</span>
                 </button>
@@ -65,7 +65,7 @@ const Products = () => {
                   className={
                     controller
                       ? "flex items-center justify-center px-3 py-2 font-bold text-black  transition-colors duration-300 transform bg-[#FEEECC] rounded-lg  focus:outline-none dark:text-gray-200"
-                      : "px-3 py-2 font-bold text-white  transition-colors duration-300 transform bg-transparent rounded-lg focus:outline-none dark:text-gray-200  hover:bg-gray-200"
+                      : "px-3 py-2 font-bold text-white  transition-colors hover:text-black  duration-300 transform bg-transparent rounded-lg focus:outline-none dark:text-gray-200  hover:bg-gray-200"
                   }>
                   <span className="mx-1">{t("Controller")}</span>
                 </button>
@@ -79,7 +79,7 @@ const Products = () => {
                   className={
                     inout
                       ? "flex items-center justify-center px-3 py-2 font-bold text-black  transition-colors duration-300 transform bg-[#FEEECC] rounded-lg  focus:outline-none dark:text-gray-200"
-                      : "px-3 py-2 font-bold text-white  transition-colors duration-300 transform bg-transparent rounded-lg focus:outline-none dark:text-gray-200  hover:bg-gray-200"
+                      : "px-3 py-2 font-bold text-white  transition-colors hover:text-black  duration-300 transform bg-transparent rounded-lg focus:outline-none dark:text-gray-200  hover:bg-gray-200"
                   }>
                   <span className="mx-1">{t("InOut")}</span>
                 </button>
