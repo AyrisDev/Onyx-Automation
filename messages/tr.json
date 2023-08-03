@@ -99,5 +99,13 @@
     "Addres": "Girne Mah. Irmaklar Sok. Küçükyalı İş Merkezi. No:3 Maltepe/İstanbul",
     "Phone": "+90 (216) 504 14 42",
     "Mail": "info@onxcontrol.com"
+  },
+  "ProductPage" : {
+    "Leroy":"Leroy Somer Motorlar",
+    "Nexcom":"Nexcom IPC",
+    "PLC":"PLC ve Operatör Panelleri",
+    "ServoTronix":"Servotronix",
+    "HPB":"HPB Yüksek Güçlü Servo Motorlar",
+    "ControlTech": "Control Techniques Sürücüler"
   }
 }

@@ -1,7 +1,11 @@
 import React from 'react'
 import ControlTech from 'components/ProductsPage/controltech'
 const Products = () => {
-   return <ControlTech />
+   return (
+      <div className="flex justify-center items-center mx-auto w-full">
+         <ControlTech />
+      </div>
+   )
 }
 
 export default Products
