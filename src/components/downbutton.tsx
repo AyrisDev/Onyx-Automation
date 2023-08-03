@@ -1,6 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
-const downbutton = ({ url, title }) => {
+
+type Cards = {
+   title?: any
+   url?: any
+}
+
+const downbutton = ({ url, title }: Cards) => {
    return (
       <div className="flex justify-center items-center">
          <button className=" transform  bg-blue-500 hover:bg-blue-400 text-white p-2 rounded-lg tracking-widest w-full">

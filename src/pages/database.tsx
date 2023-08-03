@@ -6,7 +6,7 @@ import Downbutton from 'components/downbutton'
 import { useTranslations } from 'next-intl'
 
 const Products = () => {
-   const t = useTranslations('Database')
+   const t: any = useTranslations('Database')
    return (
       <div
          className={` ${russo_one.className} text-[36px] flex justify-center items-center mx-auto w-full  `}

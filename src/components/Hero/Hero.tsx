@@ -12,7 +12,7 @@ export default function Hero() {
    const [isOpen, setIsOpen] = useState(false)
    return (
       <motion.div
-         variants={staggerContainer}
+         variants={staggerContainer as any}
          initial="hidden"
          whileInView="show"
          viewport={{ once: true, amount: 0.25 }}
