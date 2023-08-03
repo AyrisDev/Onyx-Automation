@@ -1,124 +1,135 @@
 {
-  "Index": {
-    "title": "Home",
-    "description": "This is the home page."
-  },
-  "LocaleSwitcher": {
-    "switchLocale": "Switch to {locale, select, de {German} en {English} other {Unknown}}"
-  },
-  "PageLayout": {
-    "pageTitle": "next-intl",
-    "videoCard": "Ürün Tanıtımları"
-  },
+   "Index": {
+      "title": "Home",
+      "description": "This is the home page."
+   },
+   "LocaleSwitcher": {
+      "switchLocale": "Switch to {locale, select, de {German} en {English} other {Unknown}}"
+   },
+   "PageLayout": {
+      "pageTitle": "next-intl",
+      "videoCard": "Ürün Tanıtımları"
+   },
 
-  "Menu": {
-    "Home": "Home",
-    "Products": "Products",
-    "Database": "Database",
-    "AboutUs": "About Us",
-    "Contact": "Contact"
-  },
-  "Hero": {
-    "Innovative": "Innovative",
-    "Automation": "Automation",
-    "Solutions": "Solutions"
-  },
-  "Products": {
-    "Title": "Discover Our Solutions",
-    "Drivers": "Drivers",
-    "Engines": "Engines",
-    "Controller": "Controller",
-    "InOut": "In&Out"
-  },
-  "CardButton": {
-    "Details": "Details",
-    "Catalog": "Catalog"
-  },
-  "Engines": {
-    "Title": "Detay1",
-    "SubTitle": "Katalog1",
-    "Description": "Katalog1",
+   "Menu": {
+      "Home": "Home",
+      "Products": "Products",
+      "Database": "Database",
+      "AboutUs": "About Us",
+      "Contact": "Contact"
+   },
+   "Hero": {
+      "Innovative": "Innovative",
+      "Automation": "Automation",
+      "Solutions": "Solutions"
+   },
+   "Products": {
+      "Title": "Discover Our Solutions",
+      "Drivers": "Drivers",
+      "Engines": "Engines",
+      "Controller": "Controller",
+      "InOut": "In&Out"
+   },
+   "CardButton": {
+      "Details": "Details",
+      "Catalog": "Catalog"
+   },
+   "Engines": {
+      "Title": "Detay1",
+      "SubTitle": "Katalog1",
+      "Description": "Katalog1",
 
-    "Title1": "Detay",
-    "SubTitle1": "Katalog",
-    "Description1": "Katalog",
+      "Title1": "Detay",
+      "SubTitle1": "Katalog",
+      "Description1": "Katalog",
 
-    "Title2": "Detay",
-    "SubTitle2": "Katalog",
-    "Description2": "Katalog",
+      "Title2": "Detay",
+      "SubTitle2": "Katalog",
+      "Description2": "Katalog",
 
-    "Title3": "Detay",
-    "SubTitle3": "Katalog",
-    "Description3": "Katalog"
-  },
-  "Drivers": {
-    "Title": "Universal AC Motor",
-    "SubTitle": "Servo Sürücü",
-    "Description": "Universal AC Motor Sürücü(0.75-2800kW), bütün motor kontrol uygulamalarınız için yüksek performans sağlar.",
+      "Title3": "Detay",
+      "SubTitle3": "Katalog",
+      "Description3": "Katalog"
+   },
+   "Drivers": {
+      "Title": "Universal AC Motor",
+      "SubTitle": "Servo Sürücü",
+      "Description": "Universal AC Motor Sürücü(0.75-2800kW), bütün motor kontrol uygulamalarınız için yüksek performans sağlar.",
 
-    "Title1": "Detay",
-    "SubTitle1": "Katalog",
-    "Description1": "Katalog",
+      "Title1": "Detay",
+      "SubTitle1": "Katalog",
+      "Description1": "Katalog",
 
-    "Title2": "Detay",
-    "SubTitle2": "Katalog",
-    "Description2": "Katalog",
+      "Title2": "Detay",
+      "SubTitle2": "Katalog",
+      "Description2": "Katalog",
 
-    "Title3": "Detay",
-    "SubTitle3": "Katalog",
-    "Description3": "Katalog"
-  },
+      "Title3": "Detay",
+      "SubTitle3": "Katalog",
+      "Description3": "Katalog"
+   },
 
-  "Controller": {
-    "Title": "Universal AC Motor",
-    "SubTitle": "Servo Sürücü",
-    "Description": "Universal AC Motor Sürücü(0.75-2800kW), bütün motor kontrol uygulamalarınız için yüksek performans sağlar.",
+   "Controller": {
+      "Title": "Universal AC Motor",
+      "SubTitle": "Servo Sürücü",
+      "Description": "Universal AC Motor Sürücü(0.75-2800kW), bütün motor kontrol uygulamalarınız için yüksek performans sağlar.",
 
-    "Title1": "Detay",
-    "SubTitle1": "Katalog",
-    "Description1": "Katalog",
+      "Title1": "Detay",
+      "SubTitle1": "Katalog",
+      "Description1": "Katalog",
 
-    "Title2": "Detay",
-    "SubTitle2": "Katalog",
-    "Description2": "Katalog",
+      "Title2": "Detay",
+      "SubTitle2": "Katalog",
+      "Description2": "Katalog",
 
-    "Title3": "Detay",
-    "SubTitle3": "Katalog",
-    "Description3": "Katalog"
-  },
-  "Videos": {
-    "Title": "Control Techniques",
-    "Description": "1973'ten bügüne motor kontrol  teknolojisinde lider marka  Control Techniques'in Türkiyedeki bir numaralı partneri olan Oniks Kontrol motor kontrol uygulamalarınızı hızlı ve güvenli yapabilmeniz için 7/24 hizmetinizdedir. ",
+      "Title3": "Detay",
+      "SubTitle3": "Katalog",
+      "Description3": "Katalog"
+   },
+   "Videos": {
+      "Title": "Control Techniques",
+      "Description": "1973'ten bügüne motor kontrol  teknolojisinde lider marka  Control Techniques'in Türkiyedeki bir numaralı partneri olan Oniks Kontrol motor kontrol uygulamalarınızı hızlı ve güvenli yapabilmeniz için 7/24 hizmetinizdedir. ",
 
-    "Title1": "Oniks Kontrol CNC Çözümleri",
-    "Description1": "Oniks Kontrol ve sistem partnerleri tarafından geliştirilen CNC çözümleri altın işlemeden tesktile, laser kesimden tekstile kadar pek çok değişik sektörde kullanımaktadır. Kontrölör olarak Codesys SoftMotion CNC , veriyolu olarak ise EtherCAT kullanılmaktadır.",
+      "Title1": "Oniks Kontrol CNC Çözümleri",
+      "Description1": "Oniks Kontrol ve sistem partnerleri tarafından geliştirilen CNC çözümleri altın işlemeden tesktile, laser kesimden tekstile kadar pek çok değişik sektörde kullanımaktadır. Kontrölör olarak Codesys SoftMotion CNC , veriyolu olarak ise EtherCAT kullanılmaktadır.",
 
-    "Title2": "Estun Automation",
-    "Description2": "Estun servo motor sürücüler Oniks Kontrol satış ve satış sonrası desteğiyle Türkiyede.",
+      "Title2": "Estun Automation",
+      "Description2": "Estun servo motor sürücüler Oniks Kontrol satış ve satış sonrası desteğiyle Türkiyede.",
 
-    "Title3": "Flying Shear(Uçar Makas)",
-    "Description3": "Sürekli üretim hatlarında yaygın kullanılan talebe göre istenilen boyda kesim için kullanılan makinedir. Servo motorlar ve sürücüler ile donatılmış olan makine; üretim hattı üzerine yerleştirilmiş boy ölçme encoderi vasıtası ile hatta üretilen ürünün boyunu ve hızını ölçerek kullanıcı tarafından talep edilen boyda kesmek için hızını ve pozisyonunu otomatik olarak ayarlar. "
-  },
-  "Footer": {
-    "AboutUs": "Hakkımızda",
-    "Description": "Oniks Kontrol A.Ş Endüstriyel Otomasyon sektöründe faaliyet göstermektedir.Control Techniques/Leroy Somer grubunun Türkiyedeki bir numaralı Bayi/Sistem Entegratörü, Estun Automation, 3S/Codesys-Almanya, Crevis-G.Kore ve Nexcom IPC-Taywan'in Türkiye distribütörü olan Oniks Kontrol AC/DC/Servo sürücü ve motor uygulamaları ve PC tabanlı otomasyon çözümleri için uzman kadrosu ile 7/24 servis desteği sunmaktadır.",
-    "Menu": "Hızlı Linkler",
-    "Menu1": "Ana Sayfa",
-    "Menu2": "Hesaplamalar",
-    "Menu3": "Uygulamalar",
-    "Menu4": "Bilgi Bankası",
-    "Menu5": "İletişim",
-    "Contact": "Contact",
-    "Addres": "Girne Mah. Irmaklar Sok. Küçükyalı İş Merkezi. No:3 Maltepe/İstanbul",
-    "Phone": "+90 (216) 504 14 42",
-    "Mail": "info@onxcontrol.com"
-  },
-  "ProductPage" : {
-    "Leroy":"Leroy Somer Motorlar",
-    "Nexcom":"Nexcom IPC",
-    "PLC":"PLC ve Operatör Panelleri",
-    "ServoTronix":"Servotronix",
-    "HPB":"HPB Yüksek Güçlü Servo Motorlar",
-    "ControlTech": "Control Techniques Drivers"
-  }
+      "Title3": "Flying Shear(Uçar Makas)",
+      "Description3": "Sürekli üretim hatlarında yaygın kullanılan talebe göre istenilen boyda kesim için kullanılan makinedir. Servo motorlar ve sürücüler ile donatılmış olan makine; üretim hattı üzerine yerleştirilmiş boy ölçme encoderi vasıtası ile hatta üretilen ürünün boyunu ve hızını ölçerek kullanıcı tarafından talep edilen boyda kesmek için hızını ve pozisyonunu otomatik olarak ayarlar. "
+   },
+   "Footer": {
+      "AboutUs": "Hakkımızda",
+      "Description": "Oniks Kontrol A.Ş Endüstriyel Otomasyon sektöründe faaliyet göstermektedir.Control Techniques/Leroy Somer grubunun Türkiyedeki bir numaralı Bayi/Sistem Entegratörü, Estun Automation, 3S/Codesys-Almanya, Crevis-G.Kore ve Nexcom IPC-Taywan'in Türkiye distribütörü olan Oniks Kontrol AC/DC/Servo sürücü ve motor uygulamaları ve PC tabanlı otomasyon çözümleri için uzman kadrosu ile 7/24 servis desteği sunmaktadır.",
+      "Menu": "Hızlı Linkler",
+      "Menu1": "Ana Sayfa",
+      "Menu2": "Hesaplamalar",
+      "Menu3": "Uygulamalar",
+      "Menu4": "Bilgi Bankası",
+      "Menu5": "İletişim",
+      "Contact": "Contact",
+      "Addres": "Girne Mah. Irmaklar Sok. Küçükyalı İş Merkezi. No:3 Maltepe/İstanbul",
+      "Phone": "+90 (216) 504 14 42",
+      "Mail": "info@onxcontrol.com"
+   },
+   "ProductPage": {
+      "Leroy": "Leroy Somer Motorlar",
+      "Nexcom": "Nexcom IPC",
+      "PLC": "PLC ve Operatör Panelleri",
+      "ServoTronix": "Servotronix",
+      "HPB": "HPB Yüksek Güçlü Servo Motorlar",
+      "ControlTech": "Control Techniques Drivers"
+   },
+   "Database": {
+      "Download": "Download",
+      "Title": "OPC Server tarihi ve teknik detayları",
+      "Title2": "Wien Köprüsü",
+      "Title3": "DC Motorların Çalışma Prensipleri",
+      "Title4": "Mentor II Türkçe Kullanım Klavuzu",
+      "Title5": "Isıtma/Soğutma Uygulamalarında VDF Kullanımı",
+      "Title6": "Relüktans Motorları",
+      "Title7": "AC Sürücüler ve Güç Faktörü (cos φ)",
+      "Title8": "0-10 V & 4-20 mA referans karşılaştırması"
+   }
 }
