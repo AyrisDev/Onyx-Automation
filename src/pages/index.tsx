@@ -3,8 +3,11 @@ import Products from 'components/Products/Products'
 import VideoCard from 'components/videoCard'
 import Partners from 'components/partners'
 import { supabase } from 'lib/supabase'
-export default function Index({ post }) {
-   console.log(post)
+
+type Props = {
+   post?: string
+}
+export default function Index({ post }: Props) {
    return (
       <>
          <Hero />
