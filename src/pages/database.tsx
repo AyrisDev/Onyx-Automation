@@ -12,7 +12,7 @@ const Products = () => {
          className={` ${russo_one.className} text-[36px] flex justify-center items-center mx-auto w-full  `}
       >
          <div className="mt-12 text-left w-[1024px]">
-            <table className="table text-black border-2 border-[#E9761F]/80 space-y-6 text-sm w-full flex">
+            <table className="table text-black border-2 border-[#E9761F]/80 space-y-6 text-sm w-full ">
                <thead className="bg-[#E9761F]/80 text-white">
                   <tr>
                      <th className="p-3">İçerik</th>

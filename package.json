@@ -10,15 +10,25 @@
     "start": "next start"
   },
   "dependencies": {
+    "@portabletext/react": "^3.0.7",
+    "@sanity/client": "^6.4.9",
+    "@sanity/document-internationalization": "^2.0.1",
+    "@sanity/image-url": "^1.0.2",
+    "@sanity/language-filter": "^3.2.1",
+    "@sanity/vision": "^3.16.4",
     "@supabase/supabase-js": "^2.31.0",
     "date-fns": "^2.16.1",
     "framer-motion": "^10.15.0",
+    "lucide-react": "^0.274.0",
     "next": "^13.2.4",
     "next-intl": "^2.14.3",
+    "next-sanity": "^5.4.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
     "react-lite-youtube-embed": "^2.3.52",
-    "react-youtube": "^10.1.0"
+    "react-youtube": "^10.1.0",
+    "sanity-plugin-media": "^2.2.2"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.176",

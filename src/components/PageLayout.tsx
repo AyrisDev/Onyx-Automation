@@ -1,11 +1,16 @@
-import Head from "next/head";
-import { useTranslations } from "next-intl";
-import { ReactNode } from "react";
-
+import { ReactNode } from 'react'
+import Navbar from 'components/Navigation/Navbar'
+import Footer from 'components/Footer/footer'
 type Props = {
-  children?: ReactNode;
-};
+   children?: ReactNode
+}
 
-export default function PageLayout({ children }: Props) {
-  return <div className=" bg-[#FEFEFE] -z-20">{children}</div>;
+export default function Layout({ children }: Props) {
+   return (
+      <>
+         <Navbar />
+         <main>{children}</main>
+         <Footer />
+      </>
+   )
 }

@@ -1,36 +1,34 @@
 [
-    {
-        "image": "/partners/leroy.png",
-        "id" : "1"
-    },
-    {
-        "image": "/partners/leroy.png",
-        "id" : "2"
-    },
-    {
-        "image": "/partners/leroy.png",
-        "id" : "3"
-    },
-    {
-        "image": "/partners/leroy.png",
-        "id" : "4"
-    },
-    {
-        "image": "/partners/leroy.png",
-        "id" : "5"
-    },
-    {
-        "image": "/partners/leroy.png",
-        "id" : "6"
-    },
-    {
-        "image": "/partners/leroy.png",
-        "id" : "7"
-    },
-    {
-        "image": "/partners/leroy.png",
-        "id" : "8"
-    }
-
-
+   {
+      "image": "/partners/leroy.png",
+      "id": "1"
+   },
+   {
+      "image": "/partners/hurst.png",
+      "id": "2"
+   },
+   {
+      "image": "/partners/ct.png",
+      "id": "3"
+   },
+   {
+      "image": "/partners/kato.png",
+      "id": "4"
+   },
+   {
+      "image": "/partners/merkle.png",
+      "id": "5"
+   },
+   {
+      "image": "/partners/nidec.png",
+      "id": "6"
+   },
+   {
+      "image": "/partners/robotec.png",
+      "id": "7"
+   },
+   {
+      "image": "/partners/vis.png",
+      "id": "8"
+   }
 ]
